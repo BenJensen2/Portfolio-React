@@ -25,9 +25,9 @@
   align-self: center;
 }
 
-a :hover {
+/* a :hover {
   border-bottom: solid blue 1px;
-}
+} */
 
 .name_logo {
   height: 60px;

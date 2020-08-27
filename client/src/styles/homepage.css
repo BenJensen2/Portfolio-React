@@ -2,6 +2,11 @@
   margin: auto;
 }
 
+@font-face{
+  font-family: NothingYouCouldDo;
+  src: url(../fonts/NothingYouCouldDo-Regular.ttf);
+}
+
 .Jumbo{
   height: 600px;
   width: 600px;
@@ -10,8 +15,26 @@
 }
 
 .portrait{
-  height: 600px;
-  width: 600px;
+  height: 60vw;
+  width: 60vw;
   border: solid black 5px;
   border-radius: 50%;
+}
+
+.highlights{
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  width: 12vw;
+  height:15vw;
+  border: solid grey 3px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  font-family: NothingYouCouldDo;
+}
+
+.thumbnail{
+  width: 12vw;
+  height:12vw;
+  border-bottom: solid grey 1px;
 }
