@@ -10,13 +10,20 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="navleft">
-        <a href="/">
-          <img className="name_logo" src={Logo} alt="Logo" />
-        </a>
-        {/* <p className="name">Ben Jensen</p> */}
-        <a id="projects_Link" href="/projects">Projects</a>
-        <a href="/management">Management</a>
-        <a href="/resources">Resources</a>
+        <div className="nav_link">
+          <a href="/">
+            <img className="name_logo" src={Logo} alt="Logo" />
+          </a>
+        </div>
+        <div className="nav_link">
+          <a id="projects_Link" href="/projects">Projects</a>
+        </div>
+        <div className="nav_link">
+          <a href="/management">Management</a>
+        </div>
+        <div className="nav_link">
+          <a href="/resources">Resources</a>
+        </div>
       </div>
       <div className="contact">
         <a href="https://www.linkedin.com/in/ben-jensen-68b62940/">
