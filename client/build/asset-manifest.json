@@ -13,6 +13,7 @@
     "static/css/main.4d7d3661.chunk.css.map": "/static/css/main.4d7d3661.chunk.css.map",
     "static/js/2.aa10a839.chunk.js.LICENSE.txt": "/static/js/2.aa10a839.chunk.js.LICENSE.txt",
     "static/media/homepage.css": "/static/media/NothingYouCouldDo-Regular.5518c113.ttf",
+
     "static/media/navbar.css": "/static/media/Raleway-Regular.75b4247f.ttf",
     "static/media/Resume.png": "/static/media/Resume.04e02d76.png",
     "static/media/email2.png": "/static/media/email2.71b52009.png",
@@ -27,5 +28,6 @@
     "static/js/2.aa10a839.chunk.js",
     "static/css/main.4d7d3661.chunk.css",
     "static/js/main.34236f2b.chunk.js"
+
   ]
 }
