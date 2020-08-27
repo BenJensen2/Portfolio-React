@@ -5,6 +5,8 @@
 }
 
 .navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   padding: 3px;
   background: #000000;
   display: flex;
@@ -44,3 +46,9 @@
   width: 20px;
   margin-right: 5px;
 }
+
+/* @media (max-width: 500px) {
+  .navbar {
+    background-color: purple;
+  }
+} */
