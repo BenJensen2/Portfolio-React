@@ -1,0 +1,60 @@
+.project{
+  min-height: 200px;
+  width: 400px;
+  border: solid grey 1px;
+  margin: auto;
+}
+
+.project_scroll{
+  height: 250px;
+  width: 400px;
+  overflow: scroll;
+  border-bottom: solid grey 1px;
+}
+
+.project_pic{
+  height: 500px;
+  width: 400px;
+}
+
+.link_logo{
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+.stacks, .resource_links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.stacks > div{
+  display: inline-block;
+  width: 200px;
+  min-height: 400px;
+  vertical-align: top;
+}
+
+.miniProject, .resource{
+  height: 25px;
+  width: 200px;
+  display: inline-block;
+}
+
+.mern h4{
+  margin-bottom: 0px;
+}
+
+.mern_tech{
+  font-size: 10px;
+  margin-top: 0px ;
+}
+
+.card{
+  height: 25px;
+  width: 200px;
+  margin: 2px;
+  padding: 2px;
+  border: solid grey 1px;
+  border-radius: 5px;
+}

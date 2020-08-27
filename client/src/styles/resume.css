@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  /* border: solid red 1px; */
+}
+
+
+@font-face{
+  font-family:LatoRegular;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face{
+  font-family:LatoBold;
+  src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: PathwayGothicOne;
+  src: url(../fonts//PathwayGothicOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Caveat;
+  src: url(../fonts/Caveat-Bold.ttf);
+}
+
+@font-face{
+  font-family: NothingYouCouldDo;
+  src: url(../fonts/NothingYouCouldDo-Regular.ttf);
+}
+
+@font-face {
+  font-family: GothicA1_Regular;
+  src: url(../fonts/GothicA1-Regular.ttf);
+}
+
+@font-face {
+  font-family: GothicA1_Black;
+  src: url(../fonts/GothicA1-Black.ttf);
+}
+
+@font-face {
+  font-family: GothicA1_Bold;
+  src: url(../fonts/GothicA1-Bold.ttf);
+}
+
+@font-face {
+  font-family: GothicA1_Light;
+  src: url(../fonts/GothicA1-Light.ttf);
+}
+
+/* .resume {
+  height: 1100px;
+  width: 850px;
+  border: solid 1px #485664;
+} */
+
+img {
+  height: 30px;
+  width: 30px;
+}
+
+li img {
+  height: 25px;
+  width: 25px;
+}
+
+.basic_text{
+  font-family: GothicA1_Regular;
+  font-size: 0.9em;
+}
+
+.circle_list{
+  position: relative;
+  left: 15px;
+  list-style-type: circle;
+}
+
+.container {
+  display: flex;
+  height: 1100px;
+  width: 850px;
+  align-items: flex-start;
+}
+
+.portrait img {
+  border: solid 3px white;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 25px;
+  left: 208px;
+}
+.sidebar_header, .main_content_header{
+  font-family: PathwayGothicOne;
+}
+
+.main_content p .contact_text{
+  font-family: GothicA1_Regular;
+  font-size: 0.8em;
+}
+
+.left {
+  display: inline-block;
+  background-color: #485664;
+  height: 1060px;
+  width: 30%;
+  padding: 20px;
+  color: white;
+}
+
+.aboutMe {
+  font-family: NothingYouCouldDo;
+  font-size: 0.9em;
+  /* font-weight: 800; */
+  margin-bottom: 25px;
+}
+
+.sidebar_header {
+  margin-top: 15px;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+#about_me{
+  margin-top: 190px;
+}
+
+.sidebar_subheader{
+  font-family: GothicA1_Bold;
+  font-size: 0.8em;
+}
+
+.contact_list {
+  height: 40px;
+}
+
+.contact_address_box{
+  position: relative;
+  bottom: 8px;
+}
+
+.contact_address{
+  position: relative;
+  top: 8px;
+  display: inline-block;
+  width: 200px;
+}
+
+#address{
+  display: inline-block;
+}
+
+.contact_text {
+  line-height: 14px;
+  vertical-align: 8px;
+}
+
+.right {
+  display: inline-block;
+  height: 1000px;
+  width: 70%;
+  padding: 29px 25px 25px 0px;
+}
+
+.header {
+  margin: 25px 90px 70px 90px;
+}
+
+.header_name{
+  font-family: LatoRegular;
+  font-size: 1.8em;
+  color: #737375;
+}
+
+.header_title{
+  font-family: LatoBold;
+  color: #485664;
+  font-size: 1.2em;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.main_content {
+  display: inline-block;
+  min-width: 400px;
+  margin-left: 25px;
+}
+
+.main_content_header_box{
+  height: 28px;
+}
+
+.main_content_header {
+  display: inline-block;
+  font-size: 1.3em;
+  line-height: 20px;
+  width: 200px;
+  vertical-align: top;
+}
+
+.main_content_subheader {
+  font-family: GothicA1_Black;
+  color: #485664;
+  font-size: 0.9em;
+}
+
+.projects li, .education li{
+  font-family: GothicA1_Light;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.main_content > div {
+  border-left: solid 2px #485664;
+  padding: 0px 0px 0px 25px;
+}
+
+.main_content_pics {
+  display: inline-block;
+  position: relative;
+  bottom: 4px;
+  right: 245px;
+}
+
+.sub_content{
+  margin: 8px 0px 25px 0px;
+}
+
+.technologies {
+  font-size: 0.67em;
+  vertical-align: 2px;
+}
+
+.dates {
+  font-size: 0.67em;
+  font-weight: bold;
+  vertical-align: 1px;
+}

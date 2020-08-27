@@ -1,0 +1,17 @@
+.Home{
+  margin: auto;
+}
+
+.Jumbo{
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.portrait{
+  height: 600px;
+  width: 600px;
+  border: solid black 5px;
+  border-radius: 50%;
+}
