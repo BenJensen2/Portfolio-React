@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "370c7d1dd726e1f7ee972cccb1c735e9",
+    "revision": "7b92f058a79db17ce098b01e78efa161",
     "url": "/index.html"
   },
   {
-    "revision": "311af187fc987a8011d9",
-    "url": "/static/css/main.84c5237f.chunk.css"
+    "revision": "3b9f3905481bf34e0a53",
+    "url": "/static/css/main.11cebf83.chunk.css"
   },
   {
-    "revision": "d5f86a72fbc4c60ff092",
-    "url": "/static/js/2.bb9e59a0.chunk.js"
+    "revision": "78bc03e49d66120723d9",
+    "url": "/static/js/2.f46a2cbf.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.bb9e59a0.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f46a2cbf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "311af187fc987a8011d9",
-    "url": "/static/js/main.44f491ea.chunk.js"
+    "revision": "3b9f3905481bf34e0a53",
+    "url": "/static/js/main.266afef9.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
     "url": "/static/js/runtime-main.09b85ec0.js"
   },
   {
-    "revision": "75b4247fdd3b97d0e3b8e07b115673c2",
-    "url": "/static/media/Raleway-Regular.75b4247f.ttf"
+    "revision": "5518c1135d22553f552197a4050b65c4",
+    "url": "/static/media/NothingYouCouldDo-Regular.5518c113.ttf"
   },
   {
     "revision": "04e02d76843120000bdf9fa51f05619e",
@@ -44,11 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.d86a02ce.png"
   },
   {
-    "revision": "2896c5e3024bb5d8ff5882429493518e",
-    "url": "/static/media/logo.2896c5e3.jpg"
-  },
-  {
     "revision": "19ee6dd045915025617dc7a14481ed6d",
     "url": "/static/media/portrait.19ee6dd0.jpg"
+  },
+  {
+    "revision": "5ec4f6c827375d75dd4b499e7fc61d2c",
+    "url": "/static/media/resume.5ec4f6c8.png"
   }
 ]);

@@ -37,9 +37,10 @@ const Navbar = (props) => {
               {/* <img className="name_logo" src={Logo} alt="Logo" /> */}
             </a>
           </div>
-
           <a id="nav_toggle" href="#" onClick={toggleHandler}>&#9776;</a>
-
+          <div className={navLinkClass}>
+            <a id="home_Link" href="/">Home</a>
+          </div>
           <div className={navLinkClass}>
             <a id="projects_Link" href="/projects">Projects</a>
           </div>
@@ -64,6 +65,9 @@ const Navbar = (props) => {
       </div>
       <div className={navSideBarClass}>
         <div className="nav_items">
+        <div className="nav_link">
+            <a id="home_Link" href="/">Home</a>
+          </div>
           <div className="nav_link">
             <a id="projects_Link" href="/projects">Projects</a>
           </div>
