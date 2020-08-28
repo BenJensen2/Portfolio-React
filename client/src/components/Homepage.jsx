@@ -11,7 +11,7 @@ const Homepage = (props) => {
         <a href="/projects">
           <img className="thumbnail" src={Resume} alt=""/>
         </a>
-        Resume
+        <p>Resume</p>
       </div>
       <div className="Jumbo">
         <img className="portrait" src={Portrait} alt="" />
