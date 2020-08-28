@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6fce7055.chunk.css",
+    "main.js": "/static/js/main.8f973f32.chunk.js",
+    "main.js.map": "/static/js/main.8f973f32.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.aa10a839.chunk.js": "/static/js/2.aa10a839.chunk.js",
+    "static/js/2.aa10a839.chunk.js.map": "/static/js/2.aa10a839.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7e5efa35515549ff9b87827516cec99c.js": "/precache-manifest.7e5efa35515549ff9b87827516cec99c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6fce7055.chunk.css.map": "/static/css/main.6fce7055.chunk.css.map",
+    "static/js/2.aa10a839.chunk.js.LICENSE.txt": "/static/js/2.aa10a839.chunk.js.LICENSE.txt",
+    "static/media/homepage.css": "/static/media/NothingYouCouldDo-Regular.5518c113.ttf",
+    "static/media/navbar.css": "/static/media/Raleway-Regular.75b4247f.ttf",
+    "static/media/Resume.png": "/static/media/Resume.04e02d76.png",
+    "static/media/email2.png": "/static/media/email2.71b52009.png",
+    "static/media/github3.png": "/static/media/github3.f0f84b29.png",
+    "static/media/linkedin.png": "/static/media/linkedin.d86a02ce.png",
+    "static/media/logo.jpg": "/static/media/logo.2896c5e3.jpg",
+    "static/media/portrait.jpg": "/static/media/portrait.19ee6dd0.jpg",
+    "static/media/resume.png": "/static/media/resume.5ec4f6c8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.aa10a839.chunk.js",
+    "static/css/main.6fce7055.chunk.css",
+    "static/js/main.8f973f32.chunk.js"
+  ]
+}
