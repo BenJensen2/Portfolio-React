@@ -41,21 +41,6 @@
   margin-right: 5px;
 }
 
-@media only screen and (max-width: 768px){
-  .nav_left{
-    flex-direction: column;
-  }
-  .navbar_top .nav_link{
-    display: none;
-  }
-  .nav_link_show{
-    display: absolute;
-  }
-  #nav_toggle{
-    display: initial;
-  }
-}
-
 .navbar_side{
   width: 100px;
   position: absolute;
@@ -72,4 +57,23 @@
   left: 0px;
   z-index: 1;
   transition: 300ms;
+}
+
+@media only screen and (max-width: 768px){
+  .nav_left{
+    flex-direction: column;
+  }
+  .navbar_top .nav_link{
+    display: none;
+  }
+  #nav_toggle{
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: 769px){
+  .navbar_side_show{
+    background-color: purple;
+    display: none;
+  }
 }
