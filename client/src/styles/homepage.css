@@ -7,11 +7,15 @@
   src: url(../fonts/NothingYouCouldDo-Regular.ttf);
 }
 
+.Home h1{
+  margin-bottom: 0px;
+}
+
 .Jumbo{
-  height: 600px;
-  width: 600px;
+  height: 100vh;
+  width: 100vw;
   margin: auto;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .portrait{
@@ -23,14 +27,20 @@
 
 .highlights{
   position: absolute;
-  top: 20vh;
-  left: 10vw;
+  top: 20vw;
+  left: 7vw;
   width: 12vw;
   height:15vw;
   border: solid grey 3px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px grey;
   font-family: NothingYouCouldDo;
+}
+
+.highlights p{
+  margin: 0px;
+  padding: 1px;
+  font-size: 2vw;
 }
 
 .thumbnail{
